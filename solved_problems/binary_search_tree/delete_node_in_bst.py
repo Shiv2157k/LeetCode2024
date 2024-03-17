@@ -6,8 +6,6 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-
-
 class BinarySearchTree:
 
     def successor(self, root: Optional[TreeNode]) -> int:

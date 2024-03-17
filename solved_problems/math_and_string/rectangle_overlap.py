@@ -22,3 +22,6 @@ class Rectangle:
                 r1[0] >= r2[2] or  # right
                 r2[1] >= r2[3]  # top
         )
+
+
+
