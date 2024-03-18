@@ -22,7 +22,7 @@ class JumpGame:
         for index in range(len(nums)):
             if max_reach < index + nums[index]:
                 max_reach = index + nums[index]
-            if max_reach == index: # game over lost
+            if max_reach == index:  # game over lost
                 break
         return max_reach >= len(nums) - 1
 
