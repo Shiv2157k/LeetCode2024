@@ -138,7 +138,6 @@ if __name__ == "__main__":
     print(texts.longestCommonSubSequence_v2("abcde", "ace"))
     print(texts.longestCommonSubSequence_v1("abcde", "ace"))
     print("--------------*---------------")
-    pprint([[[0] * 10 for _ in range(10)] for _ in range(5)])
 
 
 
