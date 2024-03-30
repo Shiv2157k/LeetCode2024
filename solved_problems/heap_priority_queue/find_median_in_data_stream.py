@@ -23,7 +23,7 @@ class DataStream:
 
     def get_median(self) -> float:
 
-        if len(self._max_heap) == len(self._min_heap):
+        if len(self._max_heap) > len(self._min_heap):
             return -self._max_heap[0]
         else:
             return float(-self._max_heap[0] + self._min_heap[0]) / 2
