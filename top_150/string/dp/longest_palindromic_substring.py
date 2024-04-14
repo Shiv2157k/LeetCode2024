@@ -68,7 +68,7 @@ class Palindrome:
             left = 0
 
             while left < length - currLen + 1:
-                right = currLen - 1 - left
+                right = currLen - 1 + left
 
                 if s[left] == s[right] and dp[left + 1][right - 1]:
                     dp[left][right] = True

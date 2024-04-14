@@ -3,7 +3,6 @@ from typing import List
 
 class SortedArray:
 
-
     def removeDuplicates(self, nums: List[int]) -> int:
         """
         Approach: Two Pointer
