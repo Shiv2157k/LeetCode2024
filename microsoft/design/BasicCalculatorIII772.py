@@ -5,7 +5,6 @@ class BasicCalculatorIII:
         stack = []
         currNum = 0
         operator = '+'
-        result = 0
         # for convenience
         s += '@'
 
