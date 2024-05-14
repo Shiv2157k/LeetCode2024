@@ -45,7 +45,7 @@ class DivideAnArrayIntoSubArraysWithMinimumCost:
                 sorted_list.remove(val_to_remove)
 
                 if pos_to_remove < k - 1:
-                    running_sum -= pos_to_remove
+                    running_sum -= val_to_remove
                     if len(sorted_list) >= k - 1:
                         running_sum += sorted_list[k - 2]
 
